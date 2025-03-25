@@ -1,7 +1,7 @@
 # Piloto
-Aprendendo a usar o git
+Aprendendo a usar o github
 
-A equação de einstein é $E = mc^2$
+A equação de Albert Einstein é $E = mc^2$
 
 Uma equação destaque fica assim: 
 
