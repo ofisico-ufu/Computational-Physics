@@ -1,7 +1,8 @@
-Graduado em Física pela Universidade Federal de Catalão e atualmente Mestrando em Física pela Universidade Federal de Uberlândia.
+Bem-vindo(a) ao repositório oficial das aulas de Física Computacional voltadas para os cursos de Mestrado e Doutorado em Física da Universidade Federal de Uberlândia (UFU).
 
-Possuo experiência em Dinâmica Molecular Clássica e Teoria do Funcional da Densidade (DFT), com ênfase em semicondutores e sistemas fotovoltaicos. Busco aplicar meus conhecimentos para entender e contribuir com o desenvolvimento de tecnologias sustentáveis e no design de materiais.
+Este projeto reúne conteúdos desenvolvidos ao longo das disciplinas oferecidas na pós-graduação, com foco na aplicação de métodos numéricos, simulações e ferramentas computacionais modernas para a resolução de problemas complexos em Física.
+
 
 <p align="center">
-  <img src="git_img.jpg" alt="Minha imagem" width="300"/>
+  <img src="git_img2.jpg" alt="Minha imagem" width="300"/>
 </p>
