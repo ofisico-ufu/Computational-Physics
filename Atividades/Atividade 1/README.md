@@ -1,4 +1,4 @@
-Esta atividade explorou a **implementação do algoritmo de gradiente descendente** para encontrar mínimos de funções, um método fundamental em otimização e aprendizado de máquina.
+#Esta atividade explorou a **implementação do algoritmo de gradiente descendente** para encontrar mínimos de funções, um método fundamental em otimização e aprendizado de máquina.
 
 ### Exercício 1
 
