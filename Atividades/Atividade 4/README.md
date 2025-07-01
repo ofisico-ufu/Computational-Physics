@@ -1,4 +1,4 @@
-## Esta atividade teve como objetivo resolver a EDO do resfriamento de uma caneca de café, comparando abordagens analítica, numérica e baseadas em redes neurais, incluindo PINNs (Physics-Informed Neural Networks).
+Esta atividade teve como objetivo resolver a EDO do resfriamento de uma caneca de café, comparando abordagens analítica, numérica e baseadas em redes neurais, incluindo PINNs (Physics-Informed Neural Networks).
 
 A equação diferencial considerada foi:
 
