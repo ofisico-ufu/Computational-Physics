@@ -1,6 +1,6 @@
 # Estrutura de Bandas em Cristais Unidimensionais
 
-Nesta atividade, exploramos a estrutura de bandas de um cristal unidimensional resolvendo a equação de Schrödinger independente do tempo, utilizando uma expansão da função de Bloch no espaço-$k$. O objetivo foi construir e diagonalizar a Hamiltoniana para diferentes valores de $k$ dentro da 1ª zona de Brillouin, analisando como os parâmetros de acoplamento e potencial influenciam a forma e os gaps das bandas de energia.
+Nesta atividade, exploramos a estrutura de bandas de um cristal unidimensional resolvendo a equação de Schrödinger independente do tempo, utilizando uma expansão da função de Bloch no espaço $k$. O objetivo foi construir e diagonalizar a Hamiltoniana para diferentes valores de $k$ dentro da 1ª zona de Brillouin, analisando como os parâmetros de acoplamento e potencial influenciam a forma e os gaps das bandas de energia.
 
 Foi implementado um código em Python para montar a matriz de Hamiltoniana em uma base de ondas planas ($e^{iGx}$), variando o número de vetores $G$ e o parâmetro de acoplamento $\alpha$. Os autovalores obtidos da diagonalização fornecem as energias permitidas (bandas) para cada valor de $k$.
 
