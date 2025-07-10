@@ -1,18 +1,7 @@
-# Interpolação com Redes Neurais
+# Projeto de Interpolação com Redes Neurais
 
-Este projeto usa redes neurais para interpolar funções matemáticas com **scikit-learn** e **PyTorch**.
+Foi desenvolvido um conjunto de códigos utilizando redes neurais para treinar e interpolar as funções $\sin(x)$, $\tan(x)$, $\text{sinc}(x) = \frac{\sin(x)}{x}$ e $e^{-x^2}$, empregando as bibliotecas **scikit-learn** e **PyTorch**. No scikit-learn, as quatro funções foram abordadas, enquanto no PyTorch focamos em duas delas: $\text{sinc}(x)$ e $e^{-x^2}$.
 
-### Funções treinadas:
+Nas implementações, foram usadas redes com 3 camadas ocultas e 10 neurônios por camada, exceto para $\tan(x)$, que exigiu 12 neurônios por camada devido à sua maior complexidade. Observou-se que, ao aumentar o número de camadas e neurônios, a rede melhora a capacidade de interpolar funções complexas, mas pode aumentar o tempo de treinamento e o risco de instabilidade. Funções mais suaves, como $\sin(x)$, podem ser bem aproximadas com arquiteturas menores.
 
-- **scikit-learn**: $\sin(x)$, $\tan(x)$, $\dfrac{\sin(x)}{x}$, $e^{-x^2}$
-- **PyTorch**: $\dfrac{\sin(x)}{x}$, $e^{-x^2}$
-
-### Arquiteturas:
-
-- 3 camadas ocultas com 10 neurônios (12 para $\tan(x)$).
-- Aumentar camadas/neurônios melhora a precisão, mas pode gerar overfitting ou instabilidade.
-- Funções suaves (como $\sin(x)$) exigem menos complexidade.
-
----
-
-Também treinamos redes com **MLPRegressor** para aprender **derivadas** das funções $\sin(x)$, $\cos(x)$, $\tan(x)$ e de polinômios $x^p$ ($p = 0$ a $10$), avaliando como a arquitetura da rede afeta a precisão da interpolação.
+Além disso, realizamos treinamentos com o **MLPRegressor** do scikit-learn para aprender a interpolar as derivadas de funções trigonométricas, incluindo $\sin(x)$, $\cos(x)$ e $\tan(x)$. Nesse estudo, exploramos como a arquitetura da rede — número de camadas e neurônios — impacta a precisão da interpolação das derivadas.
